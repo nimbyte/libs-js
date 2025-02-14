@@ -25,7 +25,7 @@ import { factorial } from "@nimbyte/math";
 
 const { result } = await factorial({ n: 5 });
 console.log(result);
-// Output: { result: 120n }
+// Output: 120n
 ```
 
 #### Synchronous
@@ -35,7 +35,7 @@ import { factorialSync } from "@nimbyte/math";
 
 const { result } = factorialSync({ n: 5 });
 console.log(result);
-// Output: { result: 120n }
+// Output: 120n
 ```
 
 ## API
